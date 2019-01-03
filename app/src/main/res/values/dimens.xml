@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_biz_name_weight">80dp</dimen>
+    <dimen name="button_return_width">50sp</dimen>
+    <dimen name="button_return_height">50sp</dimen>
+    <dimen name="tip_main_font_size">36sp</dimen>
+    <dimen name="qr_code_width">200dp</dimen>
+    <dimen name="qr_code_height">200dp</dimen>
+    <dimen name="qr_code_width_default">200</dimen>
+    <dimen name="qr_code_height_default">200</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">乐乐智能柜</string>
+    <string name="copyright">Copyright © 深圳市乐乐网络科技有限公司</string>
+    <string name="index_title_biz_name">请选择业务</string>
+    <string name="index_biz_save_key_name">存钥匙</string>
+    <string name="index_biz_get_key_name">取钥匙</string>
+    <string name="save_key_title_biz_name">扫一扫存钥匙</string>
+    <string name="get_key_title_biz_name">扫一扫取钥匙</string>
+    <string name="saveGetKey_return_name"><![CDATA[< 返回]]></string>
+    <string name="saveGetKey_auto_return_name">%1$ss</string>
+    <string name="door_open_success">格口 %1$s 已打开</string>
+    <string name="door_close_success">格口 %1$s 已关闭</string>
+</resources>

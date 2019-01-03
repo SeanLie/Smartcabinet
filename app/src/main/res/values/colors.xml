@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#96bd0b</color>
+    <color name="titleColor">#df5f09</color>
+    <color name="mainFont">#dc6307</color>
+    <color name="bizBackground">#efbf7b</color>
+    <color name="saveBizBackground">#f8efa2</color>
+    <color name="managerColorBackground">#ee8b40</color>
+    <color name="colorOperateSuccess">#1e9b19</color>
+    <color name="qrCodeBackground">#f1f6f7</color>
+</resources>
