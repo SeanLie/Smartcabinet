@@ -282,43 +282,6 @@ public class SaveGetKeyActivity extends AppCompatActivity implements QrListener,
                     messageTextView.setText(openMsg);
                     messageTextView.setVisibility(View.VISIBLE);
                     qrCodeImageView.setVisibility(View.GONE);
-                    // 网络请求对象
-
-                    //req.setWxUserToken(message.getString("wxUserToken"));
-
-                    // 开启格口状态监控(每隔0.5秒查询格口状态)，直到格口关闭
-                    /*final int delay = 0;
-                    final int period = 500;
-                    ScheduledExecutorService pool = Executors.newScheduledThreadPool(1);*/
-                    /*pool.scheduleAtFixedRate(() -> {
-                        // 定时查询格口状态：格口是否已关闭
-                        boolean isOpened = false;//MainActivity.getLocker(boxNo);
-                        if (!isOpened) {
-                            // 格口已关闭
-                            onDoorClosed(pool, req);
-                        }
-                    }, delay , period, TimeUnit.MILLISECONDS);*/
-                    /*Map<Object, Object> map = new HashMap<>();
-                    map.put(clientID, true);
-                    cabinetDoorStatusHandler = CabinetDoorStatusHandler.getInstance();
-                    cabinetDoorStatusHandler.onDeviceCallback(1, map);
-                    cabinetDoorStatusHandler.subscribeMatch(tv,
-                        new OnViewRefreshStatus<TextView, Boolean>(clientID) {
-                            @Override
-                            public void refreshStatus(TextView view, Boolean flag) {
-                                if (!flag) {
-                                    // 格口已关闭
-                                    String msg = String.format(Locale.CHINA,
-                                            getString(R.string.door_close_success), boxNo);
-                                    view.setText(msg);
-                                    view.setVisibility(View.VISIBLE);
-                                    // 隐藏二维码
-                                    imageBtn.setVisibility(View.GONE);
-                                    onDoorClosed();
-                                }
-                            }
-                        }
-                    );*/
                 }
             }
         }
