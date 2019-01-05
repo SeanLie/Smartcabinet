@@ -33,8 +33,7 @@ public class OpenOrCloseCabinetTask extends AsyncTask<NetReqBO, Void, String> {
         String url = SystemConstants.getUrlSchema() + "://" + SystemConstants.getUrlHost() + ":"
                 + SystemConstants.getUrlPort() + SaveGetKeyActivity.CLOSE_BOX_REQUEST_URL;
         // 请求
-        String result = HttpRequestUtil.sendPost(url, params);
-        return result;
+        return HttpRequestUtil.sendPost(url, params);
     }
 
     @Override
